@@ -14,26 +14,26 @@ class Knowledge(Base):
 
 
    	def __repr__(self):
-		return ("Article Name: {}\n"
-               	"Topic: {} \n"
-                "Rate: {}").format(
+		return ("If you want to learn about {}\n"
+               	"you should look at the Wikipedia article called {} \n"
+                "We gave this article a rating of {} out of 10").format(
                     self.name,
                     self.topic, 
                     self.rate)
                     
 
 
-article1= Knowledge(name="Donald Trump", topic="Prime Ministers" , rate= 6 )
-print(article1)
+# article1= Knowledge(name="Donald Trump", topic="Prime Ministers" , rate= 6 )
+# print(article1)
 
-article2= Knowledge(name="Little Mix", topic="Bands" , rate= 10 )
-print(article2)
+# article2= Knowledge(name="Little Mix", topic="Bands" , rate= 10 )
+# print(article2)
 
-article3= Knowledge(name="The Notebook", topic="Movies" , rate= 8 )
-print(article3)
+# article3= Knowledge(name="The Notebook", topic="Movies" , rate= 8 )
+# print(article3)
 
-article4=Knowledge(name= "rainbow", topic="weather", rate= 9 )
-print(article4)
+# article4=Knowledge(name= "rainbow", topic="weather", rate= 9 )
+# print(article4)
 
 
     
